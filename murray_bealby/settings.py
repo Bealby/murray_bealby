@@ -67,6 +67,8 @@ TEMPLATES = [
     },
 ]
 
+SITE_ID = 1
+
 WSGI_APPLICATION = 'murray_bealby.wsgi.application'
 
 
