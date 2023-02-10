@@ -2,3 +2,9 @@ p{
     font-size: 100px;
     color:red;
 }
+
+body {
+    background: url('/media/test.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0 0 65px;
+}
