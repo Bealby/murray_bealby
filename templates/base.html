@@ -54,6 +54,36 @@
     <!---Mobile Toggle-->
 
     <!---Navbar-->
+    <nav class="container-fluid d-none d-md-block">
+        <div class="row navbar">
+            <div class="col topnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-md-none">
+        <input type="checkbox" id="toggle" class="input-toggler">
+        <label for="toggle" class="menu-toggler">
+            <span class="menu-toggler-line"></span>
+            <span class="menu-toggler-line"></span>
+            <span class="menu-toggler-line"></span>
+        </label>
+
+
+        <nav class="sidebar">
+            <ul class="menu">
+                <li><a class="menu-link" href="#">Home</a></li>
+                <li><a class="menu-link" href="#">Blog</a></li>
+                <li><a class="menu-link" href="#">Portfolio</a></li>
+                <li><a class="menu-link" href="#">About</a></li>
+                <li><a class="menu-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
 
     {% if messages %}
     {% endif %}
