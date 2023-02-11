@@ -8,6 +8,13 @@
     <a class="nav-link nav-text" href="{% url 'portfolio' %}">Portfolio</a>
 </nav>
 
+
+<!---The code below searches for the href of the active page
+    in the list elements < a >. Then adds the class "active"
+    with addClass('active') to the active pages < a > so that
+    you can now call it via CSS. Put this code in the head of
+    your html file. -->
+
 <script>
     $(function () {
         $('a').each(function () {
