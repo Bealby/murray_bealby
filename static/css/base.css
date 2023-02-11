@@ -23,10 +23,23 @@ body {
   font-weight: 200;
 }
 
+.title-header {
+  font-size: 48px;
+  font-weight: bold;
+}
+
 /*--- Margins/ Padding ---*/
 
 .home-margin {
   margin-top: 10rem;
+}
+
+.about-margin {
+  margin-top: 2rem;
+}
+
+.portfolio-margin {
+  margin-top: 5rem;
 }
 
 /*--- Desktop Nav ---*/
