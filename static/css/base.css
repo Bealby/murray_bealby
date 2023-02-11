@@ -8,23 +8,32 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+/* Style the links inside the navigation bar */
 .topnav a {
   color: grey !important;
-  text-align: center !important;
-  padding: 10px !important;
-  text-decoration: none !important;
-  font-size: 20px !important;
-  border-bottom: 3px solid transparent !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid red !important;
+  border-bottom: 3px solid red;
 }
 
 .topnav a.active {
-  border-bottom: 3px solid red !important;
+  border-bottom: 3px solid red;
 }
 
+.nav-text:hover {
+  color: red !important;
+}
+
+.nav-text.active {
+  color: red !important;
+}
 
 
 /*---mobile---*/
@@ -90,13 +99,13 @@ a {
   transform: rotate(135deg);
 }
 
-/*---
+
 .nav {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
 }
----*/
+
 
 .nav ul {
   width: 100%;
@@ -147,3 +156,5 @@ a {
   transform: translateX(0%);
   opacity: .98;
 }
+
+---*/
