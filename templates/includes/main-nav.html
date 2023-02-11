@@ -1,0 +1,19 @@
+{% load static %}
+
+<!---Navbar Desktop-->
+
+<nav class="navbar justify-content-end topnav">
+    <a class="nav-link nav-text" href="{% url 'home' %}">Home</a>
+    <a class="nav-link nav-text" href="{% url 'about' %}">About</a>
+    <a class="nav-link nav-text" href="{% url 'portfolio' %}">Portfolio</a>
+</nav>
+
+<script>
+    $(function () {
+        $('a').each(function () {
+            if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('active'); $(this).parents('li').addClass('active');
+            }
+        });
+    });
+</script>

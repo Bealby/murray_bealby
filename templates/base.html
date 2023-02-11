@@ -54,35 +54,11 @@
 
 <body>
 
-    <!---Navbar Desktop-->
+    <!---Mobile Toggle-->
+    {% include 'includes/mobile-nav.html' %}
 
-    <nav class="navbar justify-content-end topnav">
-        <a class="nav-link nav-text" href="{% url 'home' %}">Home</a>
-        <a class="nav-link nav-text" href="{% url 'about' %}">About</a>
-        <a class="nav-link nav-text" href="{% url 'portfolio' %}">Portfolio</a>
-    </nav>
-
-
-    <!---Navbar Mobile-->
-    <div class="d-md-none">
-        <input type="checkbox" id="toggle" class="input-toggler">
-        <label for="toggle" class="menu-toggler">
-            <span class="menu-toggler-line"></span>
-            <span class="menu-toggler-line"></span>
-            <span class="menu-toggler-line"></span>
-        </label>
-
-        <nav class="sidebar">
-            <ul class="menu">
-                <li><a class="menu-link" href="#">Home</a></li>
-                <li><a class="menu-link" href="#">Blog</a></li>
-                <li><a class="menu-link" href="#">Portfolio</a></li>
-                <li><a class="menu-link" href="#">About</a></li>
-                <li><a class="menu-link" href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
-
+    <!---Navbar-->
+    {% include 'includes/main-nav.html' %}
 
     {% if messages %}
     {% endif %}
@@ -99,16 +75,6 @@
 
     {% block postloadjs %}
     {% endblock %}
-
-    <script>
-        $(function () {
-            $('a').each(function () {
-                if ($(this).prop('href') == window.location.href) {
-                    $(this).addClass('active'); $(this).parents('li').addClass('active');
-                }
-            });
-        });
-    </script>
 
 </body>
 
