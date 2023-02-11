@@ -51,19 +51,25 @@
 </head>
 
 <body>
-    <!---Mobile Toggle-->
 
-    <!---Navbar-->
+    <!---Navbar Desktop-->
     <nav class="container-fluid d-none d-md-block">
-        <div class="row navbar">
-            <div class="col topnav">
-                <a href="#home" class="active">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item topnav">
+                <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Active</a>
+            </li>
+            <li class="nav-item topnav">
+                <a class="nav-link" href="{% url 'about' %}">Link</a>
+            </li>
+            <li class="nav-item topnav">
+                <a class="nav-link" href="{% url 'portfolio' %}">Link</a>
+            </li>
+        </ul>
     </nav>
 
+
+
+    <!---Navbar Mobile-->
     <div class="d-md-none">
         <input type="checkbox" id="toggle" class="input-toggler">
         <label for="toggle" class="menu-toggler">
@@ -71,7 +77,6 @@
             <span class="menu-toggler-line"></span>
             <span class="menu-toggler-line"></span>
         </label>
-
 
         <nav class="sidebar">
             <ul class="menu">
@@ -104,3 +109,10 @@
 </body>
 
 </html>
+
+<script>
+    $('.nav li').click(function () {
+        $('.nav li').removeClass('active');
+        $(this).addClass('active');
+    })
+</script>
