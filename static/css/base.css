@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 html {
   position: relative;
   min-height: 100%;
@@ -5,8 +7,26 @@ html {
 
 body {
   background: #f5f5f5;
-  font-family: 'Montserrat', sans-serif;
-  color: #2f4f4f;
+  font-family: 'Libre Franklin', sans-serif;
+  color: rgb(21, 21, 85, 1);
+}
+
+/*--- Text ---*/
+
+.title-name {
+  font-size: 58px;
+  font-weight: bold;
+}
+
+.title-role {
+  font-size: 38px;
+  font-weight: 200;
+}
+
+/*--- Margins/ Padding ---*/
+
+.home-margin {
+  margin-top: 10rem;
 }
 
 /*--- Desktop Nav ---*/
@@ -16,29 +36,30 @@ body {
 }
 
 .topnav a {
-  color: grey !important;
+  color: rgb(21, 21, 85, 1);
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   padding-right: 20px;
-  font-weight: bold;
-  border-bottom: 3px solid black transparent;
+  border-bottom: 3px solid rgb(21, 21, 85, 1) transparent;
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid #2f4f4f;
+  border-bottom: 3px solid rgb(21, 21, 85, 1);
 }
 
 .topnav a.active {
-  border-bottom: 3px solid #2f4f4f;
+  border-bottom: 3px solid rgb(21, 21, 85, 1);
 }
 
 .nav-text:hover {
-  color: #2f4f4f !important;
+  color: rgb(21, 21, 85, 1) !important;
+  font-weight: bold;
 }
 
 .nav-text.active {
-  color: #2f4f4f !important;
+  color: rgb(21, 21, 85, 1) !important;
+  font-weight: bold;
 }
 
 
