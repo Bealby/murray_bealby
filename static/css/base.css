@@ -8,7 +8,40 @@ html {
 body {
   background: rgb(229, 77, 42, 1);
   font-family: 'Libre Franklin', sans-serif;
-  color: rgb(21, 21, 85, 1);
+  color: rgb(255, 255, 255, 1);
+}
+
+/*--- Desktop Nav ---*/
+
+.topnav {
+  margin-right: 20rem;
+}
+
+.topnav a {
+  color: rgb(255, 255, 255, 1);
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 20px;
+  border-bottom: 3px solid color rgb(255, 255, 255, 1) transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid rgb(255, 255, 255, 1);
+}
+
+.topnav a.active {
+  border-bottom: 3px solid rgb(255, 255, 255, 1);
+}
+
+.nav-text:hover {
+  color: rgb(255, 255, 255, 1) !important;
+  font-weight: bold;
+}
+
+.nav-text.active {
+  color: rgb(255, 255, 255, 1) !important;
+  font-weight: bold;
 }
 
 /*--- Text ---*/
@@ -42,39 +75,14 @@ body {
   margin-top: 5rem;
 }
 
-/*--- Desktop Nav ---*/
-
-.topnav {
-  margin-right: 20rem;
+.cards-padding {
+  padding: 1rem 1rem 2rem 1rem !important;
 }
 
-.topnav a {
-  color: rgb(21, 21, 85, 1);
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  padding-right: 20px;
-  border-bottom: 3px solid rgb(21, 21, 85, 1) transparent;
+.card {
+  background-color: rgb(229, 77, 42, 1) !important;
+  border: none;
 }
-
-.topnav a:hover {
-  border-bottom: 3px solid rgb(21, 21, 85, 1);
-}
-
-.topnav a.active {
-  border-bottom: 3px solid rgb(21, 21, 85, 1);
-}
-
-.nav-text:hover {
-  color: rgb(21, 21, 85, 1) !important;
-  font-weight: bold;
-}
-
-.nav-text.active {
-  color: rgb(21, 21, 85, 1) !important;
-  font-weight: bold;
-}
-
 
 /*--- Mobile Nav ---*/
 
