@@ -5,7 +5,7 @@
 
 <section class="container">
     <div class="row about-margin">
-        <div class="col-8 offset-2">
+        <div class="col">
             <p class="title-header mb-0">Portfolio</p>
         </div>
     </div>
@@ -13,10 +13,11 @@
 
 <section class="container">
     <div class="row about-margin">
-        <div class="col-8 offset-2">
-            {% for project in projects %}
-            <div class="card" style="width: 600px;">
-                <img src="{{ project.image.url }}" class="card-img-top" alt="{{ project.name }}">
+        {% for project in projects %}
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="card">
+                <img src="{{ project.image.url }}" class="card-img-top img-fluid" width=600 height=400
+                    alt="{{ project.name }}">
                 <div class="card-body">
                     <h5 class="card-title">{{ project.code }}</h5>
                     <p class="card-text">{{ project.description }}</p>
@@ -26,8 +27,8 @@
                     <a href="{{ project.github }}" class="card-link">GitHub</a>
                 </div>
             </div>
-            {% endfor %}
         </div>
+        {% endfor %}
     </div>
 </section>
 
