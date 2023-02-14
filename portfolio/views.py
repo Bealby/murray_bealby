@@ -1,6 +1,12 @@
 from django.shortcuts import render
+from .models import Project
 
+def all_projects(request):
 
-def portfolio(request):
-    # A view to return the portfolio page
-    return render(request, "portfolio/portfolio.html")
+    projects = Project.objects.all()
+
+    context = {
+        'projects': projects,
+    }
+
+    return render(request, 'projects/projects.html', context)
