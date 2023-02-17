@@ -67,11 +67,15 @@ body {
   margin-top: 10rem;
 }
 
-.about-margin {
+.page-top-margin {
   margin-top: 2rem;
 }
 
 .portfolio-margin {
+  margin-top: 5rem;
+}
+
+.card-content-margin {
   margin-top: 5rem;
 }
 
@@ -236,4 +240,17 @@ a {
 .input-toggler:checked~.sidebar {
   transform: translateX(0%);
   opacity: .98;
+}
+
+/*--- MEDIA QUERIES ---*/
+
+/*---Reduce size of images for beter viewing on mb ans sm  ---*/
+
+@media (max-width: 1400px) {
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 100px;
+    perspective: 1000px;
+  }
 }
