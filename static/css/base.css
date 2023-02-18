@@ -67,8 +67,12 @@ body {
   margin-top: 10rem;
 }
 
-.page-top-margin {
+.title-section-top-margin {
   margin-top: 2rem;
+}
+
+.card-section-top-margin {
+  margin-top: 0rem;
 }
 
 .portfolio-margin {
