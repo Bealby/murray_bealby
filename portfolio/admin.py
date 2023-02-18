@@ -7,7 +7,8 @@ class ProjectAdmin(admin.ModelAdmin):
         'name',
         'github',
         'website', 
-        'image',
+        'image_front',
+        'image_back',
         'code',
         'description',
     )
