@@ -76,18 +76,13 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.card-content-margin {
-  margin-top: 5rem;
-}
-
 /*--- Flip Card ---*/
 
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 200px;
+  height: 280px;
   perspective: 1000px;
-  text-align: center;
 }
 
 .flip-card-inner {
@@ -236,11 +231,28 @@ a {
 
 /*---Reduce size of images for beter viewing on mb ans sm  ---*/
 
-@media (max-width: 1400px) {
+@media (max-width: 1399px) {
   .flip-card {
-    background-color: transparent;
-    width: 100%;
-    height: 130px;
-    perspective: 1000px;
+    height: 230px;
+  }
+}
+
+/*---Reduce size of images for beter viewing on mb ans sm  ---*/
+
+@media (max-width: 1199px) {
+  .flip-card {
+    height: 185px;
+  }
+}
+
+@media (max-width: 991px) {
+  .flip-card {
+    height: 215px;
+  }
+}
+
+@media (max-width: 767px) {
+  .flip-card {
+    height: 150px;
   }
 }

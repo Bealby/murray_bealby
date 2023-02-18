@@ -14,8 +14,8 @@
 <section class="container">
     <div class="row page-top-margin">
         {% for project in projects %}
-        <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="flip-card portfolio-margin">
+        <div class="col-sm-6 col-md-6 col-lg-4">
+            <div class="flip-card portfolio-margin d-none d-sm-block">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <img src="{{ project.image.url }}" alt="Project - {{ project.name }}"
@@ -27,7 +27,6 @@
                     </div>
                 </div>
             </div>
-            <p class="card-content-margin">{{ project.code }}</p>
         </div>
         {% endfor %}
     </div>
