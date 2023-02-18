@@ -16,7 +16,6 @@
         {% for project in projects %}
         <div class="col-sm-6 col-md-6 col-lg-4 d-none d-sm-block">
             <div class="flip-card portfolio-margin">
-                <h5>{{ project.name }}</h5>
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
@@ -28,7 +27,8 @@
                     </div>
                 </div>
             </div>
-            <h6>{{ project.code }}</h6>
+            <h5 class="text-center">{{ project.name }}</h5>
+            <h6 class="text-center">{{ project.code }}</h6>
         </div>
         {% endfor %}
         {% for project in projects %}
