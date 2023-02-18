@@ -256,3 +256,10 @@ a {
     height: 150px;
   }
 }
+
+@media (max-width: 575px) {
+  .portfolio-margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
