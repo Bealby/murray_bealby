@@ -61,6 +61,15 @@ body {
   font-weight: bold;
 }
 
+.flip-card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.flip-card-code {
+  font-size: 17px;
+}
+
 /*--- Margins/ Padding ---*/
 
 .home-margin {
