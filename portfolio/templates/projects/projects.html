@@ -30,12 +30,12 @@
             <p class="flip-card-title text-center mb-0">{{ project.name }}</h5>
             <p class="flip-card-code text-center">{{ project.code }}</p>
         </div>
-        {% endfor %}
-        {% for project in projects %}
         <div class="col-12 d-block d-sm-none">
-            <div class="portfolio-margin">
+            <div class="portfolio-margin-mb card-mb">
                 <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
-                    class="img-fluid text-center ml-5 mr-5">
+                    class="img-fluid">
+                <p class="flip-card-title text-center pt-2 mb-1">{{ project.name }}</h5>
+                <p class="flip-card-code text-center pb-2">{{ project.code }}</p>
             </div>
         </div>
         {% endfor %}
