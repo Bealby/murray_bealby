@@ -38,8 +38,10 @@
             <div class="portfolio-margins-mb flip-card-mb">
                 <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
                     class="img-fluid">
-                <p class="flip-card-title text-center pt-2 mb-1">{{ project.name }}</h5>
-                <p class="flip-card-code text-center pb-2">{{ project.code }}</p>
+                <div class="content-bg">
+                    <p class="flip-card-title text-center pt-2 mb-1">{{ project.name }}</p>
+                    <p class="flip-card-code text-center pb-2">{{ project.code }}</p>
+                </div>
             </div>
         </div>
 

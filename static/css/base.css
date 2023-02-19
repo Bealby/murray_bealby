@@ -6,9 +6,9 @@ html {
 }
 
 body {
-  background: rgb(229, 77, 42, 1);
+  background: rgb(179, 221, 242, 1);
   font-family: 'Libre Franklin', sans-serif;
-  color: rgb(255, 255, 255, 1);
+  color: rgb(71, 88, 96, 1);
 }
 
 /*--- Desktop Nav ---*/
@@ -18,29 +18,29 @@ body {
 }
 
 .topnav a {
-  color: rgb(255, 255, 255, 1);
+  color: rgb(71, 88, 96, 1);
   text-align: center;
   text-decoration: none;
   font-size: 18px;
   padding-right: 20px;
-  border-bottom: 3px solid color rgb(255, 255, 255, 1) transparent;
+  border-bottom: 3px solid color rgb(71, 88, 96, 1) transparent;
 }
 
 .topnav a:hover {
-  border-bottom: 3px solid rgb(255, 255, 255, 1);
+  border-bottom: 3px solid rgb(71, 88, 96, 1);
 }
 
 .topnav a.active {
-  border-bottom: 3px solid rgb(255, 255, 255, 1);
+  border-bottom: 3px solid rgb(71, 88, 96, 1);
 }
 
 .nav-text:hover {
-  color: rgb(255, 255, 255, 1) !important;
+  color: rgb(71, 88, 96, 1) !important;
   font-weight: bold;
 }
 
 .nav-text.active {
-  color: rgb(255, 255, 255, 1) !important;
+  color: rgb(71, 88, 96, 1) !important;
   font-weight: bold;
 }
 
@@ -130,6 +130,10 @@ body {
 
 .flip-card-mb:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.content-bg {
+  background-color: rgb(255, 255, 255);
 }
 
 /*--- Mobile Nav ---*/
@@ -293,6 +297,7 @@ a {
   .flip-card-title {
     font-size: 18px;
     font-weight: bold;
+    text-decoration: underline;
   }
 }
 
