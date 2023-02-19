@@ -80,16 +80,16 @@ body {
   margin-top: 2rem;
 }
 
-.card-section-top-margin {
+.flip-card-section-top-margin {
   margin-top: 0rem;
 }
 
-.portfolio-margin {
+.portfolio-margins {
   margin-top: 3rem;
   margin-bottom: 1.3rem;
 }
 
-.portfolio-margin-mb {
+.portfolio-margins-mb {
   margin: 1.5rem 1.5rem 2rem 1.5rem;
 }
 
@@ -124,11 +124,11 @@ body {
   transform: rotateY(180deg);
 }
 
-.card-mb {
+.flip-card-mb {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
-.card-mb:hover {
+.flip-card-mb:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
@@ -255,7 +255,7 @@ a {
 
 /*--- MEDIA QUERIES ---*/
 
-/*---Reduce size of images for beter viewing on mb ans sm  ---*/
+/*---Height adjusment for images in flip-card for beter viewing on 1399px---*/
 
 @media (max-width: 1399px) {
   .flip-card {
@@ -263,7 +263,7 @@ a {
   }
 }
 
-/*---Reduce size of images for beter viewing on mb ans sm  ---*/
+/*---Height adjusment for images in flip-card for beter viewing on 1199px---*/
 
 @media (max-width: 1199px) {
   .flip-card {
@@ -271,11 +271,15 @@ a {
   }
 }
 
+/*---Height adjusment for images in flip-card for beter viewing on 991px---*/
+
 @media (max-width: 991px) {
   .flip-card {
     height: 213px;
   }
 }
+
+/*---Height adjusment for images in flip-card for beter viewing on 767px---*/
 
 @media (max-width: 767px) {
   .flip-card {
@@ -283,12 +287,18 @@ a {
   }
 }
 
+/*---Reduce font size for flip-card title for better viewing on smaller devices---*/
+
 @media (max-width: 575px) {
   .flip-card-title {
     font-size: 18px;
     font-weight: bold;
   }
+}
 
+/*---Reduce font size for flip-card code content for better viewing on smaller devices---*/
+
+@media (max-width: 575px) {
   .flip-card-code {
     font-size: 14px;
   }

@@ -12,10 +12,12 @@
 </section>
 
 <section class="container">
-    <div class="row card-section-top-margin">
+    <div class="row flip-card-section-top-margin">
         {% for project in projects %}
+
+        <!---Flip-card for md/lg devices--->
         <div class="col-sm-6 col-md-6 col-lg-4 d-none d-sm-block">
-            <div class="flip-card portfolio-margin">
+            <div class="flip-card portfolio-margins">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
                         <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
@@ -30,14 +32,17 @@
             <p class="flip-card-title text-center mb-0">{{ project.name }}</h5>
             <p class="flip-card-code text-center">{{ project.code }}</p>
         </div>
+
+        <!---Remove flip-card for smaller devices. Static images.--->
         <div class="col-12 d-block d-sm-none">
-            <div class="portfolio-margin-mb card-mb">
+            <div class="portfolio-margins-mb flip-card-mb">
                 <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
                     class="img-fluid">
                 <p class="flip-card-title text-center pt-2 mb-1">{{ project.name }}</h5>
                 <p class="flip-card-code text-center pb-2">{{ project.code }}</p>
             </div>
         </div>
+
         {% endfor %}
     </div>
 </section>
