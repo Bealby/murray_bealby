@@ -24,13 +24,11 @@
                             class="img-fluid text-center">
                     </div>
                     <div class="flip-card-back">
-                        <img src="{{ project.image_back.url }}" width=600 height=400 alt="Project - {{ project.name }}"
-                            class="img-fluid text-center">
+                        <p class="flip-card-title text-center text-flip-card-margin">{{ project.name }}</p>
+                        <p class="flip-card-code text-center">{{ project.code }}</p>
                     </div>
                 </div>
             </div>
-            <p class="flip-card-title text-center mb-0">{{ project.name }}</h5>
-            <p class="flip-card-code text-center">{{ project.code }}</p>
         </div>
 
         <!---Remove flip-card for smaller devices. Static images.--->
@@ -38,9 +36,9 @@
             <div class="portfolio-margins-mb flip-card-mb">
                 <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
                     class="img-fluid">
-                <div class="content-bg">
-                    <p class="flip-card-title text-center pt-2 mb-1">{{ project.name }}</p>
-                    <p class="flip-card-code text-center pb-2">{{ project.code }}</p>
+                <div class="content-bg-mb">
+                    <p class="flip-card-title-mb text-center pt-2 mb-1">{{ project.name }}</p>
+                    <p class="flip-card-code-mb text-center pb-2">{{ project.code }}</p>
                 </div>
             </div>
         </div>
