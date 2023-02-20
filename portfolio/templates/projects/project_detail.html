@@ -16,12 +16,14 @@
         <div class="col-12">
             <p>{{ project.code }}</p>
         </div>
-        <div class="col-md-6">
-            <a><i class="fa-solid fa-globe"></i>Live</a>
-            <a><i class="fa-brands fa-github"></i>Github</a>
+        <div class="col-12 live-icons">
+            <a><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;Live</a>
+            <a><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>
+        </div>
+        <div class="col-md-6 project-detail-description-margin">
             <p class="project-detail-description">{{ project.description|linebreaksbr }}</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 project-detail-description-margin">
             <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"
                 class="img-fluid">
         </div>
