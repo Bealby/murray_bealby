@@ -120,6 +120,10 @@ body {
   margin-top: 1.8rem;
 }
 
+.project-detail-content-margin {
+  padding-left: 0rem;
+}
+
 /*---Icons---*/
 
 .live-icons a {
@@ -402,6 +406,14 @@ body {
   .title-header {
     font-size: 30px;
     font-weight: bold;
+    padding-left: 1.4rem;
+  }
+}
+
+/*---For mobile reduce mt and font size for page header for better viewing---*/
+
+@media (max-width: 575px) {
+  .project-detail-content-margin {
     padding-left: 1.4rem;
   }
 }
