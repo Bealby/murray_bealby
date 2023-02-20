@@ -77,6 +77,9 @@ body {
 
 .flip-card-code-mb {
   font-size: 13px;
+  font-size: 13px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 /*--- Margins/ Padding ---*/
