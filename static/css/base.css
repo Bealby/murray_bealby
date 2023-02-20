@@ -421,7 +421,7 @@ body {
   }
 }
 
-/*---For mobile reduce mt and font size for page header for better viewing---*/
+/*---padding for project detail sectiom for better margins and viewing on mobile---*/
 
 @media (max-width: 575px) {
   .project-detail-content-margin {
