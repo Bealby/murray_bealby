@@ -433,19 +433,28 @@ body {
   }
 }
 
-/*---Reduce font size for icons for better viewing for galaxy fold---*/
-
-@media (max-width: 280px) {
-  .live-icons a {
-    font-size: 0.55rem;
-  }
-}
-
 /*---Reduce font size for project-detail-description class for better viewing on mb---*/
 
 @media (max-width: 575px) {
   .project-detail-description {
     color: rgb(167, 174, 196, 1);
     font-size: 0.9rem;
+  }
+}
+
+/*---Reduce Margin Right for better viewing for icons at 360px screen---*/
+
+@media (max-width: 360px) {
+  .live-icons a {
+    margin-right: 0.7rem;
+  }
+}
+
+/*---Reduce Margin Right for better viewing for icons for galaxy fold---*/
+
+@media (max-width: 289px) {
+  .live-icons a {
+    margin-right: 0rem;
+    font-size: 0.7rem;
   }
 }
