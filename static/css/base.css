@@ -378,3 +378,16 @@ a {
   }
 
 }
+
+/*---For mobile reduce mt and font size for page header for better viewing---*/
+
+@media (max-width: 575px) {
+  .title-section-top-margin {
+    margin-top: 6rem;
+  }
+
+  .title-header {
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
