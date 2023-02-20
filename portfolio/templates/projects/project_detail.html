@@ -13,12 +13,18 @@
 
 <section class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-12">
             <p>{{ project.code }}</p>
+        </div>
+        <div class="col-md-6">
+            <a><i class="fa-solid fa-globe"></i>Live</a>
+            <a><i class="fa-brands fa-github"></i>Github</a>
+            <p class="project-detail-description">{{ project.description|linebreaksbr }}</p>
+        </div>
+        <div class="col-md-6">
             <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"
                 class="img-fluid">
         </div>
-    </div>
 </section>
 
 {% endblock %}

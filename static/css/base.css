@@ -82,6 +82,11 @@ body {
   padding-right: 0.5rem;
 }
 
+.project-detail-description {
+  color: rgb(167, 174, 196, 1);
+}
+
+
 /*--- Margins/ Padding ---*/
 
 .home-margin {
