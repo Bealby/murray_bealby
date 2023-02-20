@@ -146,13 +146,11 @@ body {
   background-color: rgb(58, 70, 88, 1);
   box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7), 0 6px 20px 0 rgba(100, 255, 218, 0.8);
   cursor: pointer;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
-.flip-card-mb:hover {
-  box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7), 0 6px 20px 0 rgba(100, 255, 218, 0.8);
-  cursor: pointer;
+.flip-card-back a {
+  text-decoration: none;
+  color: rgb(100, 255, 218, 1);
 }
 
 .content-bg-mb {

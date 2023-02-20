@@ -24,8 +24,10 @@
                             class="img-fluid text-center">
                     </div>
                     <div class="flip-card-back">
-                        <p class="flip-card-title text-center text-flip-card-margin">{{ project.name }}</p>
-                        <p class="flip-card-code text-center">{{ project.code }}</p>
+                        <a href="{% url 'project_detail' project.id %}">
+                            <p class="flip-card-title text-center text-flip-card-margin">{{ project.name }}</p>
+                            <p class="flip-card-code text-center">{{ project.code }}</p>
+                        </a>
                     </div>
                 </div>
             </div>
