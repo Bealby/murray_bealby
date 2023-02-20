@@ -73,6 +73,7 @@ body {
 .flip-card-title-mb {
   font-size: 20px;
   font-weight: bold;
+  color: rgb(100, 255, 218, 1) !important;
 }
 
 .flip-card-code-mb {
@@ -80,6 +81,7 @@ body {
   font-size: 13px;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  color: rgb(100, 255, 218, 1) !important;
 }
 
 .project-detail-description {
@@ -187,9 +189,18 @@ body {
   color: rgb(100, 255, 218, 1);
 }
 
+.flip-card-mb:hover {
+  box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7), 0 6px 20px 0 rgba(100, 255, 218, 0.8);
+  cursor: pointer;
+}
+
 .content-bg-mb {
   background-color: rgb(58, 70, 88, 1);
   color: rgb(100, 255, 218, 1)
+}
+
+.content-bg-mb a {
+  text-decoration: none !important;
 }
 
 /*--- Mobile Nav ---*/
