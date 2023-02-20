@@ -39,8 +39,10 @@
                 <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
                     class="img-fluid">
                 <div class="content-bg-mb">
-                    <p class="flip-card-title-mb text-center pt-2 mb-1">{{ project.name }}</p>
-                    <p class="flip-card-code-mb text-center pb-2">{{ project.code }}</p>
+                    <a href="{% url 'project_detail' project.id %}">
+                        <p class="flip-card-title-mb text-center pt-2 mb-1">{{ project.name }}</p>
+                        <p class="flip-card-code-mb text-center pb-2">{{ project.code }}</p>
+                    </a>
                 </div>
             </div>
         </div>
