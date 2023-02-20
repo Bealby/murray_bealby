@@ -435,7 +435,7 @@ body {
 
 /*---Reduce font size for icons for better viewing for galaxy fold---*/
 
-@media (max-width: 400px) {
+@media (max-width: 280px) {
   .live-icons a {
     font-size: 0.55rem;
   }
