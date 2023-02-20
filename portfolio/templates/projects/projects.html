@@ -13,7 +13,7 @@
 
 <section class="container">
     <div class="row flip-card-section-top-margin">
-        {% for project in projects %}
+        {% for project in projects|dictsort:"position" %}
 
         <!---Flip-card for md/lg devices--->
         <div class="col-sm-6 col-md-6 col-lg-4 d-none d-sm-block">
