@@ -431,3 +431,11 @@ body {
     padding-right: 0.5rem;
   }
 }
+
+/*---Reduce font for icons for better viewing for galaxy fold---*/
+
+@media (max-width: 400px) {
+  .live-icons a {
+    font-size: 0.55rem;
+  }
+}
