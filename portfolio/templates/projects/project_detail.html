@@ -21,12 +21,19 @@
             <a href="{{ project.github }}"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>
             <a href="{% url 'projects' %}"><i class="fa-solid fa-chevron-left"></i>&nbsp;&nbsp;Portfolio</a>
         </div>
-        <div class="col-md-6 order-md-1 order-sm-2 order-xs-2 project-detail-description-margin">
+        <div class="col-md-6 project-detail-description-margin d-none d-md-block">
             <p class="project-detail-description">{{ project.description|linebreaksbr }}</p>
         </div>
-        <div class="col-md-6 order-md-2 order-sm-1 order-xs-1 project-detail-description-margin">
+        <div class="col-md-6 project-detail-description-margin d-none d-md-block">
             <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"
                 class="img-fluid">
+        </div>
+        <div class="col-sm-12 project-detail-description-margin d-md-none">
+            <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"
+                class="img-fluid">
+        </div>
+        <div class="col-sm-12 project-detail-description-margin d-md-none">
+            <p class="project-detail-description">{{ project.description|linebreaksbr }}</p>
         </div>
 </section>
 
