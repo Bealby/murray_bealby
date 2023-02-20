@@ -1,12 +1,14 @@
 {% load static %}
 
-<!---Navbar Desktop-->
 
-<nav class="navbar justify-content-end topnav">
-    <a class="nav-link nav-text" href="{% url 'home' %}">Home</a>
-    <a class="nav-link nav-text" href="{% url 'about' %}">About</a>
-    <a class="nav-link nav-text" href="{% url 'projects' %}">Portfolio</a>
-</nav>
+<div class="d-none d-sm-block">
+    <!---Navbar Desktop-->
+    <nav class="navbar justify-content-end topnav">
+        <a class="nav-link nav-text" href="{% url 'home' %}">Home</a>
+        <a class="nav-link nav-text" href="{% url 'about' %}">About</a>
+        <a class="nav-link nav-text" href="{% url 'projects' %}">Portfolio</a>
+    </nav>
+</div>
 
 
 <!---The code below searches for the href of the active page
