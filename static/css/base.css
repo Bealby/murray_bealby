@@ -251,7 +251,7 @@ body {
   line-height: 15vmin;
   -webkit-transition: all .25s ease-out;
   transition: all .25s ease-out;
-  display: block;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .menu-link:hover, .menu-link:focus, .menu-link:active {
