@@ -159,21 +159,12 @@ body {
 
 /*--- Mobile Nav ---*/
 
-* {
-  box-sizing: border-box;
-}
-
-legend, label, input, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
-ul, li {
+.sidebar ul, li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
+.sidebar a {
+  text-decoration: none !important;
 }
 
 .input-toggler {
@@ -251,7 +242,6 @@ a {
   justify-content: center;
   align-items: center;
   transform: translateX(-100%);
-
   transition: all .40s ease-out;
 }
 
@@ -261,10 +251,11 @@ a {
   line-height: 15vmin;
   -webkit-transition: all .25s ease-out;
   transition: all .25s ease-out;
+  display: block;
 }
 
 .menu-link:hover, .menu-link:focus, .menu-link:active {
-  color: Gold;
+  color: rgb(58, 70, 88, 1) !important;
 }
 
 .input-toggler:checked~.sidebar {
@@ -382,7 +373,8 @@ a {
   }
 
   .title-header {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bold;
+    padding-left: 1.4rem;
   }
 }
