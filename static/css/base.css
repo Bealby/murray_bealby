@@ -318,7 +318,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 65px;
+  height: 57px;
   width: 100%;
   overflow: hidden;
 }
@@ -329,8 +329,14 @@ body {
   font-size: 0.6rem;
   font-family: 'Roboto', sans-serif;
   margin-top: 0rem;
-  padding-top: 1.8rem;
-  padding-bottom: 1.5rem;
+  padding-top: 0.4rem;
+}
+
+.footer-links a {
+  color: rgb(100, 255, 218, 1);
+  font-size: 1.3rem;
+  text-decoration: none !important;
+  cursor: pointer;
 }
 
 /*--- MEDIA QUERIES ---*/
