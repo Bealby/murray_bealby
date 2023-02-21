@@ -469,7 +469,7 @@ body {
 
 /*---Reduce Margin Right for better viewing for icons at 360px screen---*/
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
   .live-icons a {
     margin-right: 0.4rem;
   }
