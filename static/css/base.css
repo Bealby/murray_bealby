@@ -88,6 +88,11 @@ body {
   font-size: 1rem;
 }
 
+.about-detail-description {
+  color: rgb(167, 174, 196, 1);
+  font-size: 1rem;
+}
+
 /*--- Margins/ Padding ---*/
 
 .home-margin {
@@ -100,10 +105,6 @@ body {
 
 .flip-card-section-top-margin {
   margin-top: 0rem;
-}
-
-.about-section-top-margin {
-  margin-top: 0.5rem;
 }
 
 .portfolio-margins {
@@ -126,6 +127,14 @@ body {
 }
 
 .project-detail-content-margin {
+  padding-left: 0rem;
+}
+
+.about-detail-description-margin {
+  margin-top: 1rem;
+}
+
+.about-detail-content-margin {
   padding-left: 0rem;
 }
 
@@ -480,10 +489,28 @@ body {
   }
 }
 
+/*---padding for about detail sectiom for better margins and viewing on mobile---*/
+
+@media (max-width: 575px) {
+  .about-detail-content-margin {
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+  }
+}
+
 /*---Reduce font size for project-detail-description class for better viewing on mb---*/
 
 @media (max-width: 575px) {
   .project-detail-description {
+    color: rgb(167, 174, 196, 1);
+    font-size: 0.9rem;
+  }
+}
+
+/*---Reduce font size for about-detail-description class for better viewing on mb---*/
+
+@media (max-width: 575px) {
+  .about-detail-description {
     color: rgb(167, 174, 196, 1);
     font-size: 0.9rem;
   }
