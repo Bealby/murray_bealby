@@ -138,6 +138,14 @@ body {
   padding-left: 0rem;
 }
 
+/*---lists---*/
+
+ul.about-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*---Icons---*/
 
 .live-icons a {
@@ -169,6 +177,22 @@ body {
 
 .fa-github:hover {
   transform: scale(1.4) !important;
+}
+
+.fa-book-open {
+  font-size: 3rem;
+}
+
+.fa-futbol {
+  font-size: 3rem;
+}
+
+.fa-person-hiking {
+  font-size: 3rem;
+}
+
+.fa-person-running {
+  font-size: 3rem;
 }
 
 /*--- Flip Card ---*/
