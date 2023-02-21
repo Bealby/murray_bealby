@@ -150,6 +150,18 @@ body {
   margin-top: 0.5rem;
 }
 
+.fa-download:hover {
+  transform: scale(1.4) !important;
+}
+
+.fa-linkedin:hover {
+  transform: scale(1.4) !important;
+}
+
+.fa-github:hover {
+  transform: scale(1.4) !important;
+}
+
 /*--- Flip Card ---*/
 
 .flip-card {
