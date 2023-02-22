@@ -89,12 +89,7 @@ body {
   color: rgb(100, 255, 218, 1) !important;
 }
 
-.project-detail-description {
-  color: rgb(167, 174, 196, 1);
-  font-size: 1rem;
-}
-
-.about-detail-description {
+.detail-description {
   color: rgb(167, 174, 196, 1);
   font-size: 1rem;
 }
@@ -521,19 +516,10 @@ ul.about-list {
   }
 }
 
-/*---Reduce font size for project-detail-description class for better viewing on mb---*/
+/*---Reduce font size for project/about page for better viewing on mb---*/
 
 @media (max-width: 575px) {
-  .project-detail-description {
-    color: rgb(167, 174, 196, 1);
-    font-size: 0.9rem;
-  }
-}
-
-/*---Reduce font size for about-detail-description class for better viewing on mb---*/
-
-@media (max-width: 575px) {
-  .about-detail-description {
+  .detail-description {
     color: rgb(167, 174, 196, 1);
     font-size: 0.9rem;
   }
