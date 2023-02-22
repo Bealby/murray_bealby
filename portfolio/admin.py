@@ -6,7 +6,7 @@ class ProjectAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'github',
-        'website', 
+        'website',
         'image_front',
         'image_back',
         'code',
