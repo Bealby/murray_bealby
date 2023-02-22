@@ -610,3 +610,11 @@ ul.about-list {
     font-weight: 200;
   }
 }
+
+/*---Reduce footer links/icons for better viewing on smaller devices---*/
+
+@media (max-width: 767px) {
+  .footer-links a {
+    font-size: 1.1rem;
+  }
+}
