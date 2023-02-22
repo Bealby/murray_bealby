@@ -568,3 +568,44 @@ ul.about-list {
     font-size: 0.7rem;
   }
 }
+
+/*---Reduce size of icons for better layout/ fitting for smaller devices (991px)---*/
+
+
+@media (max-width: 991px) {
+  .fa-book-open {
+    font-size: 2.3rem;
+  }
+
+  .fa-futbol {
+    font-size: 2.3rem;
+  }
+
+  .fa-person-hiking {
+    font-size: 2.3rem;
+  }
+
+  .fa-person-running {
+    font-size: 2.3rem;
+  }
+}
+
+/*---Reduce size of icons for better layout/ fitting for smaller devices (475px)---*/
+
+@media (max-width: 991px) {
+  .fa-book-open {
+    font-size: 2rem;
+  }
+
+  .fa-futbol {
+    font-size: 2rem;
+  }
+
+  .fa-person-hiking {
+    font-size: 2rem;
+  }
+
+  .fa-person-running {
+    font-size: 2rem;
+  }
+}
