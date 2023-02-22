@@ -642,3 +642,11 @@ ul.about-list {
     height: 67px;
   }
 }
+
+/*---Padding-right reduction for better viewing on smaller devices---*/
+
+@media (max-width: 575px) {
+  ul.about-list {
+    padding-right: 1.5rem;
+  }
+}
