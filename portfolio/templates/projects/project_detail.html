@@ -3,6 +3,8 @@
 
 {% block content %}
 
+<!---Page Title--->
+
 <section class="container">
     <div class="row title-section-top-margin">
         <div class="col">
@@ -10,6 +12,8 @@
         </div>
     </div>
 </section>
+
+<!---Project detail page--->
 
 <section class="container">
     <div class="row content-margin">
@@ -35,6 +39,15 @@
         <div class="col-sm-12 project-detail-description-margin d-md-none">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
         </div>
+</section>
+
+<!---Page margin--->
+
+<section class="container">
+    <div class="row project-detail-page-margin">
+        <div class="col-12">
+        </div>
+    </div>
 </section>
 
 {% endblock %}

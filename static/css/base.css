@@ -136,6 +136,19 @@ body {
   margin-top: 1rem;
 }
 
+.project-detail-page-margin {
+  margin-bottom: 2rem;
+}
+
+.project-page-margin {
+  margin-bottom: 2rem;
+}
+
+.about-page-margin {
+  margin-bottom: 2rem;
+}
+
+
 /*---lists---*/
 
 ul.about-list {
@@ -527,7 +540,7 @@ ul.about-list {
 
 /*---Reduce Margin Right for better viewing for icons at 360px screen---*/
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   .live-icons a {
     margin-right: 0.4rem;
   }
@@ -616,5 +629,29 @@ ul.about-list {
 @media (max-width: 767px) {
   .footer-links a {
     font-size: 1.1rem;
+  }
+}
+
+/*---Reduce footer links/icons for better viewing project detail page on smaller devices---*/
+
+@media (max-width: 767px) {
+  .project-detail-page-margin {
+    margin-bottom: 6rem;
+  }
+}
+
+/*---Reduce footer links/icons for better viewing project page on smaller devices---*/
+
+@media (max-width: 575px) {
+  .project-detail-page-margin {
+    margin-bottom: 6rem;
+  }
+}
+
+/*---Reduce footer links/icons for better viewing project page on smaller devices---*/
+
+@media (max-width: 575px) {
+  .about-page-margin {
+    margin-bottom: 6rem;
   }
 }
