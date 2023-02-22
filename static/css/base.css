@@ -582,3 +582,31 @@ ul.about-list {
     font-size: 2rem;
   }
 }
+
+/*---Reduce font size for name and role for smaller devices for better viewing 771px---*/
+
+@media (max-width: 771px) {
+  .title-name {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .title-role {
+    font-size: 30px;
+    font-weight: 200;
+  }
+}
+
+/*---Reduce font size for name and role for smaller devices for better viewing px---*/
+
+@media (max-width: 460px) {
+  .title-name {
+    font-size: 38px;
+    font-weight: bold;
+  }
+
+  .title-role {
+    font-size: 20px;
+    font-weight: 200;
+  }
+}
