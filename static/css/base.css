@@ -61,6 +61,11 @@ body {
   font-weight: bold;
 }
 
+.title-header-2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .flip-card-title {
   font-size: 22px;
   font-weight: bold;
@@ -501,6 +506,11 @@ ul.about-list {
     font-size: 30px;
     font-weight: bold;
     padding-left: 1.4rem;
+  }
+
+  .title-header {
+    font-size: 30px;
+    font-weight: bold;
   }
 }
 
