@@ -637,7 +637,7 @@ ul.about-list {
 
 /*---Increase footer height for galaxy fold for better viewing ---*/
 
-@media (max-width: 280px) {
+@media (max-width: 350px) {
   #footer {
     height: 67px;
   }
