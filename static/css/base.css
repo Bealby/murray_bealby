@@ -133,16 +133,12 @@ body {
   margin-top: 1.8rem;
 }
 
-.project-detail-content-margin {
+.content-margin {
   padding-left: 0rem;
 }
 
 .about-detail-description-margin {
   margin-top: 1rem;
-}
-
-.about-detail-content-margin {
-  padding-left: 0rem;
 }
 
 /*---lists---*/
@@ -519,16 +515,7 @@ ul.about-list {
 /*---padding for project detail sectiom for better margins and viewing on mobile---*/
 
 @media (max-width: 575px) {
-  .project-detail-content-margin {
-    padding-left: 1.4rem;
-    padding-right: 1.4rem;
-  }
-}
-
-/*---padding for about detail sectiom for better margins and viewing on mobile---*/
-
-@media (max-width: 575px) {
-  .about-detail-content-margin {
+  .content-margin {
     padding-left: 1.4rem;
     padding-right: 1.4rem;
   }
