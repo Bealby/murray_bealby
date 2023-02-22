@@ -137,15 +137,15 @@ body {
 }
 
 .project-detail-page-margin {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .project-page-margin {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 .about-page-margin {
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
 }
 
 
@@ -629,29 +629,5 @@ ul.about-list {
 @media (max-width: 767px) {
   .footer-links a {
     font-size: 1.1rem;
-  }
-}
-
-/*---Reduce footer links/icons for better viewing project detail page on smaller devices---*/
-
-@media (max-width: 767px) {
-  .project-detail-page-margin {
-    margin-bottom: 6rem;
-  }
-}
-
-/*---Reduce footer links/icons for better viewing project page on smaller devices---*/
-
-@media (max-width: 575px) {
-  .project-detail-page-margin {
-    margin-bottom: 6rem;
-  }
-}
-
-/*---Reduce footer links/icons for better viewing project page on smaller devices---*/
-
-@media (max-width: 575px) {
-  .about-page-margin {
-    margin-bottom: 6rem;
   }
 }
