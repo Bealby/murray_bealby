@@ -390,6 +390,7 @@ ul.about-list {
   font-family: 'Roboto', sans-serif;
   margin-top: 0rem;
   padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
 }
 
 .footer-links a {
@@ -628,5 +629,13 @@ ul.about-list {
 @media (max-width: 767px) {
   .footer-links a {
     font-size: 1.1rem;
+  }
+}
+
+/*---Increase footer height for galaxy fold for better viewing ---*/
+
+@media (max-width: 280px) {
+  #footer {
+    height: 67px;
   }
 }
