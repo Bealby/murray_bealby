@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
 
 html {
   position: relative;
@@ -7,7 +7,7 @@ html {
 
 body {
   background: rgb(10, 25, 47, 1);
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: rgb(100, 255, 218, 1);
 }
 
@@ -23,7 +23,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   padding-right: 20px;
-  border-bottom: 3px soliD rgb(100, 255, 218, 1) transparent;
+  border-bottom: 3px solid rgb(100, 255, 218, 1);
 }
 
 .topnav a:hover {
@@ -148,7 +148,6 @@ body {
   margin-bottom: 6rem;
 }
 
-
 /*---lists---*/
 
 ul.about-list {
@@ -231,7 +230,8 @@ ul.about-list {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -242,7 +242,8 @@ ul.about-list {
 .flip-card-back {
   transform: rotateY(180deg);
   background-color: rgb(58, 70, 88, 1);
-  box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7), 0 6px 20px 0 rgba(100, 255, 218, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7),
+    0 6px 20px 0 rgba(100, 255, 218, 0.8);
   cursor: pointer;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -254,7 +255,8 @@ ul.about-list {
 }
 
 .flip-card-mb:hover {
-  box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7), 0 6px 20px 0 rgba(100, 255, 218, 0.8);
+  box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7),
+    0 6px 20px 0 rgba(100, 255, 218, 0.8);
   text-decoration: none !important;
 }
 
@@ -269,7 +271,8 @@ ul.about-list {
 
 /*--- Mobile Nav ---*/
 
-.sidebar ul, li {
+.sidebar ul,
+li {
   list-style: none;
 }
 
@@ -301,7 +304,7 @@ ul.about-list {
   background: rgb(100, 255, 218, 1);
   margin: 0 0 10px 0px;
   position: relative;
-  transition: all .40s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .input-toggler:checked~.menu-toggler .menu-toggler-line {
@@ -350,19 +353,21 @@ ul.about-list {
   justify-content: center;
   align-items: center;
   transform: translateX(-100%);
-  transition: all .40s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .menu-link {
   color: rgb(100, 255, 218, 1);
   font-size: 10vmin;
   line-height: 15vmin;
-  -webkit-transition: all .25s ease-out;
-  transition: all .25s ease-out;
-  font-family: 'Libre Franklin', sans-serif;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  font-family: "Libre Franklin", sans-serif;
 }
 
-.menu-link:hover, .menu-link:focus, .menu-link:active {
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
   color: rgb(58, 70, 88, 1) !important;
 }
 
@@ -390,7 +395,7 @@ ul.about-list {
   margin-bottom: 0rem !important;
   text-align: center;
   font-size: 0.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 0rem;
   padding-top: 0.4rem;
   padding-bottom: 0.4rem;
@@ -472,7 +477,6 @@ ul.about-list {
   .flip-card-code {
     font-size: 15px;
   }
-
 }
 
 /*---Reduce margin-top for flip-card for devices at 991px for better viewing---*/
@@ -502,7 +506,6 @@ ul.about-list {
   .flip-card-code {
     font-size: 14px;
   }
-
 }
 
 /*---For mobile reduce mt and font size for page header for better viewing---*/
@@ -559,7 +562,6 @@ ul.about-list {
 }
 
 /*---Reduce size of icons for better layout/ fitting for smaller devices (991px)---*/
-
 
 @media (max-width: 991px) {
   .fa-book-open {
