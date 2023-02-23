@@ -22,14 +22,14 @@
 </section>
 
 <!---About page content--->
-
+{% for about in abouts %}
 <section class="container">
     <div class="row content-margin">
         <div class="col-md-6 about-detail-description-margin">
-            <p class="detail-description"></p>
+            <p class="detail-description">{{ about.description_1 }}</p>
         </div>
         <div class="col-md-6 about-detail-description-margin">
-            <p class="detail-description"></p>
+            <p class="detail-description">{{ about.description_2 }}</p>
         </div>
         <div class="col-12 about-detail-description-margin mt-4">
             <p class="title-header-2">Hobbies</p>
@@ -41,21 +41,13 @@
                         <li><i class="fa-solid fa-book-open"></i></li>
                     </div>
                     <div class="col-10">
-                        <p class="detail-description">I enjoy writing and designing and I have quite recently research
-                            and published a book, titled "A Brief Interlude" by Jack Fairfield, where I used programs
-                            such as Indesign, Photoshop and Illustrator. I
-                            thoroughly enjoy the experience and challenge of learning new
-                            programs and delivering satisfying results.
-                        </p>
+                        <p class="detail-description">{{ about.description_1 }}</p>
                     </div>
                     <div class="col-2">
                         <li><i class="fa fa-futbol"></i></li>
                     </div>
                     <div class="col-10">
-                        <p class="detail-description">I am a manager and player for Långholmen Football Club
-                            playing both 11 aside and 7 aside throughout the year. I am also part of the board that
-                            discusses the clubs future and planning for each season.
-                        </p>
+                        <p class="detail-description">{{ about.description_2 }}</p>
                     </div>
                 </div>
             </ul>
@@ -67,26 +59,20 @@
                         <li><i class="fa-solid fa-person-hiking"></i></li>
                     </div>
                     <div class="col-10">
-                        <p class="detail-description">I enjoy walking and trekking and have enjoyed many fantastic
-                            climbs through out the world. Including Kilimanjaro in Tanzania and extensive treks around
-                            the Himalaya's, Asia and
-                            Scotland.
-                        </p>
+                        <p class="detail-description">{{ about.description_3 }}</p>
                     </div>
                     <div class="col-2">
                         <li><i class="fa-solid fa-person-running"></i></li>
                     </div>
                     <div class="col-10">
-                        <p class="detail-description">I am an avid runner and gym enthusiast who enjoys the
-                            challenge of Obstacle Course Racing. I have entered into competitions throughout Sweden and
-                            United Kingdom, with the most gruelling being the Rat Race that consisted of running 30km
-                            while tackling 200 obstacles.
+                        <p class="detail-description">{{ about.description_4 }}</p>
                     </div>
                 </div>
             </ul>
         </div>
     </div>
 </section>
+{% endfor %}
 
 <!---Page margin--->
 
