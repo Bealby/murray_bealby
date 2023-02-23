@@ -5,6 +5,7 @@ from django.db import models
 class Project(models.Model):
     '''Programmatic Name'''
     name = models.CharField(max_length=254, null=True, blank=True)
+    type = models.CharField(max_length=254, null=True, blank=True)
     github = models.CharField(max_length=254, null=True, blank=True)
     website = models.CharField(max_length=254, null=True, blank=True)
     image_front = models.ImageField(null=True, blank=True)
