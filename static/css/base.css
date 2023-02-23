@@ -287,6 +287,10 @@ ul.about-list {
   text-decoration: none !important;
 }
 
+.mockup-image {
+  border-radius: 5px;
+}
+
 .content-bg-mb {
   background-color: rgb(10, 25, 47, 1);
   color: rgb(100, 255, 218, 1);
