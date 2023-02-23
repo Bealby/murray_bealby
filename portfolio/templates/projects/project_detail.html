@@ -36,10 +36,11 @@
             {% if project.api %}
             <p>{{ project.api }}</p>
             {% endif %}
-            <p class="mb-4"><span style="padding-right: 0.4em">SEO</span><i class="fa-solid fa-check"></i><span
-                    style="padding-left: 1em; padding-right: 0.4em">Code Validation</span><i
-                    class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.4em">Clean
-                    Code</span><i class="fa-solid fa-check"></i>
+            <p class="mb-4"><span style="padding-right: 0.3em">SEO</span><i class="fa-solid fa-check"></i><span
+                    style="padding-left: 0.8em; padding-right: 0.3em">Code Validation</span><i
+                    class="fa-solid fa-check"></i><span style="padding-left: 0.8em; padding-right: 0.3em">Clean
+                    Code</span><i class="fa-solid fa-check"></i><span
+                    style="padding-left: 0.8em; padding-right: 0.3em">Responsive</span><i class="fa-solid fa-check"></i>
             </p>
             {% if project.letter %}
             <a href="{{ project.letter }}" target="_blank"><i class="fa-solid fa-pen-nib"></i>&nbsp;&nbsp;Letter of
@@ -58,16 +59,16 @@
             <p class="text-uppercase">{{ project.type }}</p>
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
-            <p class="mb-1">{{ project.crud }}</p>
+            <p class="mb-3">{{ project.crud }}</p>
             {% endif %}
             {% if project.api %}
-            <p class="mb-1">{{ project.api }}</p>
+            <p class="mb-3">{{ project.api }}</p>
             {% endif %}
             <p class="mb-1"><span style="padding-right: 0.3em">SEO</span><i class="fa-solid fa-check"></i></p>
             <p class="mb-1"><span style="padding-right: 0.3em">Code Validation</span><i class="fa-solid fa-check"></i>
             </p>
-            <p class="mb-4"><span style="padding-right: 0.3em">Clean Code</span><i class="fa-solid fa-check"></i></p>
-            </p>
+            <p class="mb-1"><span style="padding-right: 0.3em">Clean Code</span><i class="fa-solid fa-check"></i></p>
+            <p class="mb-4"><span style="padding-right: 0.3em">Responsive</span><i class="fa-solid fa-check"></i></p>
             {% if project.letter %}
             <a href="{{ project.letter }}" target="_blank"><i class="fa-solid fa-pen-nib"></i>&nbsp;&nbsp;Letter of
                 recommendation</a>
