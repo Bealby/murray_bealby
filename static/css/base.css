@@ -250,6 +250,9 @@ ul.about-list {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+}
+
+.flip-card-front img {
   border-radius: 5px;
 }
 
@@ -261,6 +264,7 @@ ul.about-list {
   cursor: pointer;
   padding-left: 1rem;
   padding-right: 1rem;
+  border-radius: 5px;
 }
 
 .flip-card-back a {
