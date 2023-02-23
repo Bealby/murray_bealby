@@ -28,7 +28,7 @@
 <section class="container">
     <div class="row content-margin">
         <div class="col-md-6 project-detail-description-margin bullet-icons d-none d-md-block">
-            <p>{{ project.type }}</p>
+            <p text="text-uppercase">{{ project.type }}</p>
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
             <p>{{ project.crud }}</p>
@@ -55,6 +55,7 @@
                 class="img-fluid">
         </div>
         <div class="col-sm-12 project-detail-description-margin d-md-none bullet-icons">
+            <p class="text-uppercase">{{ project.type }}</p>
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
             <p class="mb-1">{{ project.crud }}</p>
