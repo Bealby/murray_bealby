@@ -250,6 +250,7 @@ ul.about-list {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 5px;
 }
 
 .flip-card-back {
