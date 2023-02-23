@@ -254,7 +254,7 @@ ul.about-list {
 
 .flip-card-back {
   transform: rotateY(180deg);
-  background-color: rgb(58, 70, 88, 1);
+  background-color: rgb(10, 25, 47, 1);
   box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7),
     0 6px 20px 0 rgba(100, 255, 218, 0.8);
   cursor: pointer;
