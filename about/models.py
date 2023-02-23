@@ -4,6 +4,10 @@ from django.db import models
 
 class About(models.Model):
     '''Programmatic Name'''
+
+    class Meta:
+        verbose_name_plural = 'About'
+
     name = models.CharField(max_length=254, null=True, blank=True)
     description_1 = models.TextField(max_length=1000, null=True, blank=True)
     description_2 = models.TextField(max_length=1000, null=True, blank=True)
