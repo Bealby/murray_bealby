@@ -557,7 +557,7 @@ li {
 @media (max-width: 575px) {
   .detail-description {
     color: rgb(167, 174, 196, 1);
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
