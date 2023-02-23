@@ -358,9 +358,9 @@ li {
 
 .sidebar {
   position: fixed;
-  top: 0;
+  top: -60px;
   height: 100vh;
-  width: 100%;
+  width: 97%;
   background: rgb(10, 25, 47, 1);
   display: flex;
   justify-content: center;
