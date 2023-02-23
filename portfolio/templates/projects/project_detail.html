@@ -27,16 +27,23 @@
 
 <section class="container">
     <div class="row content-margin">
-        <div class="col-md-6 project-detail-description-margin d-none d-md-block">
+        <div class="col-md-6 project-detail-description-margin live-icons d-none d-md-block">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
             <p>{{ project.crud }}</p>
+            {% endif %}
+            {% if project.api %}
+            <p>{{ project.api }}</p>
             {% endif %}
             <p><span style="padding-right: 0.4em">SEO</span><i class="fa-solid fa-check"></i><span
                     style="padding-left: 1em; padding-right: 0.4em">Code Validation</span><i
                     class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.4em">Clean
                     Code</span><i class="fa-solid fa-check"></i>
             </p>
+            {% if project.letter %}
+            <a href="{{ project.letter }}" target="_blank"><i class="fa-solid fa-pen-nib"></i>&nbsp;&nbsp;Letter of
+                recommendation</a>
+            {% endif %}
         </div>
         <div class="col-md-6 project-detail-description-margin d-none d-md-block">
             <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"

@@ -11,6 +11,7 @@ class ProjectAdmin(admin.ModelAdmin):
         'image_back',
         'code',
         'crud',
+        'letter',
         'description',
         'position',
         'api',
