@@ -13,6 +13,7 @@ class ProjectAdmin(admin.ModelAdmin):
         'crud',
         'description',
         'position',
+        'api',
     )
 
 
