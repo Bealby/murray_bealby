@@ -42,7 +42,7 @@
             <div class="portfolio-margins-mb flip-card-mb">
                 <a href="{% url 'project_detail' project.id %}">
                     <img src="{{ project.image_front.url }}" width=600 height=400 alt="Project - {{ project.name }}"
-                        class="img-fluid">
+                        class="img-fluid flip-card-image-mb">
                     <div class="content-bg-mb">
                         <p class="flip-card-title-mb text-center pt-2 mb-1">{{ project.name }}</p>
                         <p class="flip-card-code-mb text-center pb-2">{{ project.code }}</p>

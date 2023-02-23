@@ -278,6 +278,11 @@ ul.about-list {
   text-decoration: none !important;
 }
 
+.flip-card-image-mb {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
 .flip-card-mb a {
   text-decoration: none !important;
 }
@@ -285,6 +290,8 @@ ul.about-list {
 .content-bg-mb {
   background-color: rgb(10, 25, 47, 1);
   color: rgb(100, 255, 218, 1);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 /*--- Mobile Nav ---*/
