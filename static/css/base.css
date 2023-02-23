@@ -386,6 +386,7 @@ li {
   align-items: center;
   transform: translateX(-100%);
   transition: all .40s ease-out;
+  z-index: 1;
 }
 
 .menu-link {
