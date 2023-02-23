@@ -7,10 +7,10 @@ class AboutAdmin(admin.ModelAdmin):
         'name',
         'description_1',
         'description_2',
-        'hobby_1', 
-        'hobby_2', 
-        'hobby_3', 
-        'hobby_4', 
+        'hobby_1',
+        'hobby_2',
+        'hobby_3',
+        'hobby_4',
     )
 
 

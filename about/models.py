@@ -16,6 +16,5 @@ class About(models.Model):
     hobby_3 = models.TextField(max_length=1000, null=True, blank=True)
     hobby_4 = models.TextField(max_length=1000, null=True, blank=True)
 
-
     def __str__(self):
         return self.name
