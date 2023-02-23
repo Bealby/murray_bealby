@@ -10,6 +10,7 @@ class ProjectAdmin(admin.ModelAdmin):
         'image_front',
         'image_back',
         'code',
+        'crud',
         'description',
         'position',
     )

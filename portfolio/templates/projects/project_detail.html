@@ -29,6 +29,14 @@
     <div class="row content-margin">
         <div class="col-md-6 project-detail-description-margin d-none d-md-block">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
+            {% if project.crud %}
+            <p>{{ project.crud }}</p>
+            {% endif %}
+            <p><span style="padding-right: 0.5em">SEO</span><i class="fa-solid fa-check"></i><span
+                    style="padding-left: 1em; padding-right: 0.5em">Code Validation</span><i
+                    class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.5em">Clean
+                    Code</span><i class="fa-solid fa-check"></i>
+            </p>
         </div>
         <div class="col-md-6 project-detail-description-margin d-none d-md-block">
             <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"
@@ -40,6 +48,11 @@
         </div>
         <div class="col-sm-12 project-detail-description-margin d-md-none">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
+            <p><span style="padding-right: 0.5em">SEO</span><i class="fa-solid fa-check"></i><span
+                    style="padding-left: 1em; padding-right: 0.5em">Code Validation</span><i
+                    class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.5em">Clean
+                    Code</span><i class="fa-solid fa-check"></i>
+            </p>
         </div>
 </section>
 
