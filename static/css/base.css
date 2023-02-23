@@ -309,6 +309,12 @@ li {
   text-decoration: none !important;
 }
 
+.sidebar ul {
+  list-style: none;
+  margin-bottom: 7rem;
+  margin-right: 1rem;
+}
+
 .input-toggler {
   display: none;
 }
