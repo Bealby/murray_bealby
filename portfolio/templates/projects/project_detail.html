@@ -32,9 +32,9 @@
             {% if project.crud %}
             <p>{{ project.crud }}</p>
             {% endif %}
-            <p><span style="padding-right: 0.5em">SEO</span><i class="fa-solid fa-check"></i><span
-                    style="padding-left: 1em; padding-right: 0.5em">Code Validation</span><i
-                    class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.5em">Clean
+            <p><span style="padding-right: 0.4em">SEO</span><i class="fa-solid fa-check"></i><span
+                    style="padding-left: 1em; padding-right: 0.4em">Code Validation</span><i
+                    class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.4em">Clean
                     Code</span><i class="fa-solid fa-check"></i>
             </p>
         </div>
@@ -48,10 +48,13 @@
         </div>
         <div class="col-sm-12 project-detail-description-margin d-md-none">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
-            <p><span style="padding-right: 0.5em">SEO</span><i class="fa-solid fa-check"></i><span
-                    style="padding-left: 1em; padding-right: 0.5em">Code Validation</span><i
-                    class="fa-solid fa-check"></i><span style="padding-left: 1em; padding-right: 0.5em">Clean
-                    Code</span><i class="fa-solid fa-check"></i>
+            {% if project.crud %}
+            <p class="mb-1">{{ project.crud }}</p>
+            {% endif %}
+            <p class="mb-1"><span style="padding-right: 0.3em">SEO</span><i class="fa-solid fa-check"></i></p>
+            <p class="mb-1"><span style="padding-right: 0.3em">Code Validation</span><i class="fa-solid fa-check"></i>
+            </p>
+            <p class="mb-1"><span style="padding-right: 0.3em">Clean Code</span><i class="fa-solid fa-check"></i></p>
             </p>
         </div>
 </section>
