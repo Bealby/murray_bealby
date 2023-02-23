@@ -176,6 +176,19 @@ ul.about-list {
   cursor: pointer;
 }
 
+.bullet-icons a {
+  border: 1.5px solid rgb(100, 255, 218, 1);
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  color: rgb(100, 255, 218, 1);
+}
+
+.bullet-icons a:hover {
+  color: rgb(10, 25, 47, 1) !important;
+  background-color: rgb(100, 255, 218, 1);
+  cursor: pointer;
+}
+
 .live-icons {
   margin-top: 0.5rem;
 }
