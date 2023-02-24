@@ -8,7 +8,8 @@
 <section class="container">
     <div class="row title-section-top-margin content-margin">
         <div class="col-12">
-            <p class="title-header mb-1">{{ project.name }}</p>
+            <p class="title-header mb-1">{{ project.name }}&nbsp;&nbsp;<span class="title-header-2">
+                    {{ project.type }}</span></p>
         </div>
         <div class="col-12">
             <p>{{ project.code }}</p>
@@ -29,8 +30,7 @@
     <div class="row content-margin">
 
         <!---Desktop--->
-        <div class="col-md-6 project-detail-description-margin bullet-icons d-none d-md-block">
-            <p class="text-uppercase">{{ project.type }}</p>
+        <div class="col-md-6 project-detail-description-margin bullet-icons d-none d-lg-block">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
             <p>{{ project.crud }}</p>
@@ -49,17 +49,17 @@
                 Appraisal</a>
             {% endif %}
         </div>
-        <div class="col-md-6 project-detail-description-margin d-none d-md-block">
+        <div class="col-md-6 project-detail-description-margin d-none d-lg-block">
             <a href="{{ project.website }}" target="_blank"><img src="{{ project.image_mockup.url }}" width=600
                     height=400 alt="Mockup - {{ project.name }}" class="img-fluid mockup-image"></a>
         </div>
 
         <!---Mobile--->
-        <div class="col-sm-12 project-detail-description-margin d-md-none">
+        <div class="col-sm-12 project-detail-description-margin d-lg-none">
             <a href="{{ project.website }}" target="_blank"><img src="{{ project.image_mockup.url }}" width=600
                     height=400 alt="Mockup - {{ project.name }}" class="img-fluid mockup-image"></a>
         </div>
-        <div class="col-sm-12 project-detail-description-margin d-md-none bullet-icons">
+        <div class="col-sm-12 project-detail-description-margin d-lg-none bullet-icons">
             <p class="text-uppercase">{{ project.type }}</p>
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
