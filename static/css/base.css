@@ -301,6 +301,9 @@ ul.about-list {
   color: rgb(100, 255, 218, 1);
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  border-bottom: solid 1px rgb(100, 255, 218, 0.5);
+  border-left: solid 1px rgb(100, 255, 218, 0.5);
+  border-right: solid 1px rgb(100, 255, 218, 0.5);
 }
 
 /*--- Mobile Nav ---*/
