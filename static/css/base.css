@@ -131,6 +131,7 @@ body {
 
 .project-detail-description-margin {
   margin-top: 1.8rem;
+  padding-right: 1.5rem;
 }
 
 .content-margin {
@@ -719,6 +720,14 @@ li {
 @media (max-width: 575px) {
   .mockup-image img {
     border-radius: 5px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+/*---Rpadding right zero for project-detail-description-margin for better viewing on smaller devices---*/
+@media (max-width: 575px) {
+  .project-detail-description-margin {
+    margin-top: 1.8rem;
+    padding-right: 0rem;
   }
 }
