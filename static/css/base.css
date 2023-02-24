@@ -296,8 +296,9 @@ ul.about-list {
   text-decoration: none !important;
 }
 
-.mockup-image {
+.mockup-image img {
   border-radius: 5px;
+  margin-top: 1.4rem;
 }
 
 .content-bg-mb {
