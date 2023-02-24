@@ -15,7 +15,9 @@
             <p>{{ project.code }}</p>
         </div>
         <div class="col-12 live-icons">
+            {% if project.website %}
             <a href="{{ project.website }}" target="_blank"><i class="fa-solid fa-globe"></i>&nbsp;&nbsp;Live</a>
+            {% endif %}
             {% if project.github %}
             <a href="{{ project.github }}" target="_blank"><i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github</a>
             {% endif %}
