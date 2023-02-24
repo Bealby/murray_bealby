@@ -699,3 +699,11 @@ li {
     padding-right: 1.5rem;
   }
 }
+
+/*---Reduce font for span hearder for better layout on mobile---*/
+@media (max-width: 575px) {
+  .title-sub-header {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
