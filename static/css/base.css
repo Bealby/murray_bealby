@@ -298,7 +298,7 @@ ul.about-list {
 
 .mockup-image img {
   border-radius: 5px;
-  margin-top: 1.4rem;
+  margin-top: 1.8rem;
 }
 
 .content-bg-mb {
@@ -712,5 +712,13 @@ li {
   .title-sub-header {
     font-size: 14px;
     font-weight: bold;
+  }
+}
+
+/*---Reduce margin top for mockup image on mobile for better placement---*/
+@media (max-width: 575px) {
+  .mockup-image img {
+    border-radius: 5px;
+    margin-top: 1.5rem;
   }
 }
