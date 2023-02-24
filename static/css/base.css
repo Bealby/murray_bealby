@@ -153,6 +153,10 @@ body {
   margin-bottom: 7rem;
 }
 
+.error-page-margin {
+  margin-top: 10rem !important;
+}
+
 /*---lists---*/
 
 ul.about-list {
