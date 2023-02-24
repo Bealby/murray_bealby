@@ -33,10 +33,10 @@
         <div class="col-md-6 project-detail-description-margin bullet-icons d-none d-lg-block">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
-            <p>{{ project.crud }}</p>
+            <p>CRUD:&nbsp;&nbsp;{{ project.crud }}</p>
             {% endif %}
             {% if project.api %}
-            <p>{{ project.api }}</p>
+            <p>API:&nbsp;&nbsp;{{ project.api }}</p>
             {% endif %}
             <p class="mb-4"><span style="padding-right: 0.3em">SEO</span><i class="fa-solid fa-check"></i><span
                     style="padding-left: 0.8em; padding-right: 0.3em">Code Validation</span><i
@@ -62,10 +62,10 @@
         <div class="col-sm-12 project-detail-description-margin d-lg-none bullet-icons">
             <p class="detail-description">{{ project.description|linebreaksbr }}</p>
             {% if project.crud %}
-            <p class="mb-3">{{ project.crud }}</p>
+            <p class="mb-3">CRUD:&nbsp;&nbsp;{{ project.crud }}</p>
             {% endif %}
             {% if project.api %}
-            <p class="mb-3">{{ project.api }}</p>
+            <p class="mb-3">API:&nbsp;&nbsp;{{ project.api }}</p>
             {% endif %}
             <p class="mb-1"><span style="padding-right: 0.3em">SEO</span><i class="fa-solid fa-check"></i></p>
             <p class="mb-1"><span style="padding-right: 0.3em">Code Validation</span><i class="fa-solid fa-check"></i>
