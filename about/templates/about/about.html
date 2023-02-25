@@ -5,12 +5,13 @@
 
 <!---Page Title--->
 
+{% for about in about %}
 <section class="container">
     <div class="row title-section-top-margin content-margin">
         <div class="col">
             <p class="title-header mb-1">About</p>
         </div>
-        <div class="col-12 footer-links">
+        <div class="col-12 footer-links mb-3">
             <a href="https://www.linkedin.com/in/murray-bealby-46953136/" target="_blank"><i
                     class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;|&nbsp;&nbsp;
             <a href="https://github.com/Bealby" target="_blank"><i
@@ -23,13 +24,11 @@
             <a href="{{ about.cert }}" target=" _blank"><i
                     class="fa-solid fa-certificate"></i>&nbsp;&nbsp;Certificate</a>
             {% endif %}
-            <a href="{% url 'projects' %}">Check out my Portfolio&nbsp;&nbsp;<i
-                    class="fa-solid fa-chevron-right"></i></a>
+            <a href="{% url 'projects' %}">Portfolio&nbsp;&nbsp;<i class="fa-solid fa-chevron-right"></i></a>
         </div>
 </section>
 
 <!---About page content--->
-{% for about in about %}
 <section class="container">
     <div class="row content-margin">
         <div class="col-md-6 about-detail-description-margin">
