@@ -18,26 +18,25 @@
             <a href="{% static 'documents/murray_bealby.pdf' %}" target="_blank">Download my CV&nbsp;&nbsp;<i
                     class="fa-solid fa-download"></i></a>
         </div>
-    </div>
+        <div class="col-12 live-icons">
+            {% if about.cert %}
+            <a href="{{ about.cert }}" target=" _blank"><i
+                    class="fa-solid fa-certificate"></i>&nbsp;&nbsp;Certificate</a>
+            {% endif %}
+            <a href="{% url 'projects' %}">Check out my Portfolio&nbsp;&nbsp;<i
+                    class="fa-solid fa-chevron-right"></i></a>
+        </div>
 </section>
 
 <!---About page content--->
 {% for about in about %}
 <section class="container">
     <div class="row content-margin">
-        <div class="col-md-6 about-detail-description-margin bullet-icons">
+        <div class="col-md-6 about-detail-description-margin">
             <p class="detail-description">{{ about.description_1|linebreaksbr }}</p>
-            {% if about.cert %}
-            <a href="{{ about.cert }}" target="_blank"><i
-                    class="fa-solid fa-certificate"></i>&nbsp;&nbsp;Certificate</a>
-            {% endif %}
         </div>
         <div class="col-md-6 about-detail-description-margin">
             <p class="detail-description">{{ about.description_2|linebreaksbr }}</p>
-            <div class="live-icons">
-                <a href="{% url 'projects' %}">Check out my Portfolio&nbsp;&nbsp;<i
-                        class="fa-solid fa-chevron-right"></i></a>
-            </div>
         </div>
         <div class="col-12 about-detail-description-margin mt-4">
             <p class="title-header-2">Hobbies</p>
