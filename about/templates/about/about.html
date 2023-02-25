@@ -28,8 +28,11 @@
         <div class="col-md-6 about-detail-description-margin">
             <p class="detail-description">{{ about.description_1|linebreaksbr }}</p>
         </div>
-        <div class="col-md-6 about-detail-description-margin">
+        <div class="col-md-6 about-detail-description-margin bullet-icons">
             <p class="detail-description">{{ about.description_2|linebreaksbr }}</p>
+            {% if project.letter %}
+            <a href="{{ about.cert }}" target="_blank"><i class="fa-solid fa-pen-nib"></i>&nbsp;&nbsp;Testimonial</a>
+            {% endif %}
         </div>
         <div class="col-12 about-detail-description-margin mt-4">
             <p class="title-header-2">Hobbies</p>
