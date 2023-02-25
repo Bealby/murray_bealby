@@ -7,6 +7,7 @@ class AboutAdmin(admin.ModelAdmin):
         'name',
         'description_1',
         'description_2',
+        'cert',
         'hobby_1',
         'hobby_2',
         'hobby_3',

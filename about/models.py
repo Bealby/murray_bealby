@@ -11,6 +11,7 @@ class About(models.Model):
     name = models.CharField(max_length=254, null=True, blank=True)
     description_1 = models.TextField(max_length=1000, null=True, blank=True)
     description_2 = models.TextField(max_length=1000, null=True, blank=True)
+    cert = models.CharField(max_length=254, null=True, blank=True)
     hobby_1 = models.TextField(max_length=1000, null=True, blank=True)
     hobby_2 = models.TextField(max_length=1000, null=True, blank=True)
     hobby_3 = models.TextField(max_length=1000, null=True, blank=True)
