@@ -271,7 +271,6 @@ ul.about-list {
   background-color: rgb(10, 25, 47, 1);
   box-shadow: 0 4px 8px 0 rgba(100, 255, 218, 0.7),
     0 6px 20px 0 rgba(100, 255, 218, 0.8);
-  cursor: pointer;
   padding-left: 1rem;
   padding-right: 1rem;
   border-radius: 5px;
@@ -310,11 +309,6 @@ ul.about-list {
   border-bottom: solid 1px rgb(100, 255, 218, 0.5);
   border-left: solid 1px rgb(100, 255, 218, 0.5);
   border-right: solid 1px rgb(100, 255, 218, 0.5);
-}
-
-.flip-card-back-box {
-  width: 100%;
-  height: 100%;
 }
 
 /*--- Mobile Nav ---*/
