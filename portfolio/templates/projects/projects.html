@@ -29,8 +29,10 @@
                     </div>
                     <div class="flip-card-back">
                         <a href="{% url 'project_detail' project.id %}">
-                            <p class="flip-card-title text-center text-flip-card-margin">{{ project.name }}</p>
-                            <p class="flip-card-code text-center">{{ project.code }}</p>
+                            <div class="box">
+                                <p class="flip-card-title text-center text-flip-card-margin">{{ project.name }}</p>
+                                <p class="flip-card-code text-center">{{ project.code }}</p>
+                            </div>
                         </a>
                     </div>
                 </div>
