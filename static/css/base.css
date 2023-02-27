@@ -311,15 +311,6 @@ ul.about-list {
   border-right: solid 1px rgb(100, 255, 218, 0.5);
 }
 
-.flip-card-back-box {
-  transform: rotateY(180deg);
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
 /*--- Mobile Nav ---*/
 
 .sidebar ul,
