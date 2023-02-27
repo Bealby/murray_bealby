@@ -58,8 +58,13 @@
             {% endif %}
         </div>
         <div class="col-md-6 mockup-image d-none d-lg-block">
+            {% if project.website %}
             <a href="{{ project.website }}" target="_blank"><img src="{{ project.image_mockup.url }}" width=600
                     height=400 alt="Mockup - {{ project.name }}" class="img-fluid mockup-image"></a>
+            {% else %}
+            <img src="{{ project.image_mockup.url }}" width=600 height=400 alt="Mockup - {{ project.name }}"
+                class="img-fluid mockup-image">
+            {% endif %}
         </div>
 
         <!---Mobile--->
