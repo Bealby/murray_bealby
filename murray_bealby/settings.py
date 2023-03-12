@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['murray-bealby.herokuapp.com', 'localhost', '127.0.0.1',
-                'www.murraybealby.com', 'murraybealby.com']
+                'www.murraybealby.com']
 
 # Application definition
 
